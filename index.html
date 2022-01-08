@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inner Html</title>
+    <style>
+        div 
+        {
+            border: 2px solid black;
+            height: auto;
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="h1">How to get inner HTML of Element?</h1>
+    <p id="p1">
+        In this Html file I will be demonstrating, How to get the inner HTML of an element in Java Script.
+        inner HTML of an element means the text between the HTML tags.
+        By using java script, we can get the text and we can even manipulate the text using java script.
+    </p>
+    <div id="d1">
+        <h1 id="h2"></h1>
+        <p id="p2"></p>
+    </div>
+
+    <script>
+        var text = document.getElementById("p1").innerHTML; //copying the content of <p> element with id p1 to text using innerHTML
+        var heading = document.getElementById('h1').innerHTML; //copying the content of <h> element with id h1 to heading using innerHTML
+        document.getElementById("h2").innerHTML = heading; //Adding the content of heading variable to <h> element with id h2 using innerHTML 
+        document.getElementById("p2").innerHTML = text; //Adding the content of text variable to <p> element with id p2 using innerHTML
+    </script>
+</body>
+</html>
