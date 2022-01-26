@@ -1,0 +1,23 @@
+#form {
+    margin-top: 100px;
+    align-items: center;
+    align-content: center;
+    height:max-content;
+    padding-bottom: 10px;
+}
+
+#form h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #305e85;
+    font-weight: 100;
+    font-size: 3.5rem;
+    line-height: 2;
+}
+
+#form label{
+    color: #346896;
+    font-weight: 100;
+    font-size: 1.5rem;
+    line-height: 2;
+}
